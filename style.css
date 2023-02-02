@@ -3,21 +3,47 @@ body
     margin: 0;
     padding: 0;
     background-position-x: 150px;
+    background-image: url(baseball-background.jpg);
+    background-size: 960pt;
+    background-repeat: no-repeat;
 }
 
 #content
 {
     padding: 20px;
     background-color: rgba(255,255,255,0.85);
+    margin: auto;
+    width: 800pt;
+    margin-top: 150pt;
+    border-left: 2pt red solid;
+    border-right: 2pt red solid;
+
 }
 
 .frame
 {
     padding:20px;
     margin:10px;
-}
+    float: right;
+    width: 150pt;
+    border-left: 2pt black solid;
 
+}
+span{
+    font-weight: bold;
+    color: red;
+}
 .frame img
 {
     width: 150px;
+}
+.imgcaption{
+    text-align: center;
+    font-style: italic;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
 }
